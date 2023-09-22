@@ -5,7 +5,10 @@
     class HomeController {
 
         public function index (){
-            echo 'home';
+            
+            if(isset($_SESSION['login'])){
+
+            }
         }
     }
 ?>

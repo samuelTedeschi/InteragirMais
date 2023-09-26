@@ -7,9 +7,9 @@
         public function index (){
             
             if(isset($_SESSION['login'])){
-                \central\Views\mainViews::render('home');
+                \central\Views\MainViews::render('home');
             }else{
-                \central\Views\mainViews::render('registrar');
+                \central\Views\MainViews::render('login');
             }
         }
     }

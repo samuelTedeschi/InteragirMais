@@ -2,9 +2,9 @@
 
     namespace central\Views;
 
-    class mainViews{
+    class MainViews{
         public static function render($filename){
-            include('pages/'.$filename.'php');
+            include('pages/'.$filename.'.php');
         }
     }
 ?>

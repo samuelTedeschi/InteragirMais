@@ -14,7 +14,19 @@
 </head>
 
 <body>
-<h1>login</h1>
+    <div class="container">
+        <div class="container-login">
+            <h2>login</h2>
+            <div>
+                <form action="">
+                    
+                </form>
+            </div>
+        </div>
+        <div class="container-img">
+            <img src="<?php echo INCLUDE_PATH_STATIC ?>images/fotoLogin.png" alt="" class="img-login">
+        </div>
+    </div>
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +18,14 @@
         <div class="container-login">
             <h1 class="title">InteragirMais</h1>
             <div class="container-form">
-            <h2 class="title-login">login</h2>
+            <h2 class="title-login">Criar Conta</h2>
             <form method="post" class="inputs">
-                    <input type="text" name="login" class="input-name" placeholder="nome de usuario">
-                    <input type="password" name="senha" class="input-senha" placeholder="senha">
-                    <input type="submit" name="acao" value="Entrar" class="btn-login">
+                    <input type="text" name="nome" class="input-name" placeholder="Seu nome">
+                    <input type="text" name="login" class="input-name" placeholder="Nome de usuario">
+                    <input type="password" name="senha" class="input-senha" placeholder="Senha">
+                    <input type="submit" name="acao" value="Criar conta" class="btn-login">
                 </form>
             </div>
-            <div class="chamada-cadastro">
-                <p class="mensagem-cadastro">Voce possui um conta?</p>
-                <a href="<?php echo INCLUDE_PATH ?>registrar" class="link-cadastro">Cadastre-se</a>
-            </div>
-        </div>
-        <div class="container-img">
-            <img src="<?php echo INCLUDE_PATH_STATIC ?>images/fotoLogin.png" alt="" class="img-login">
         </div>
     </div>
 </body>

@@ -1,25 +1,65 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.container-login{
-    display: block;
-    margin: auto;
-    border: 1px solid gainsboro;
-    border-radius: 4px;
+.container-login {
+  display: block;
+  margin: auto;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.container-form{
     padding: 10px;
 }
 
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
 
-.img-login{
-    height: 100vh;
-    width: 40vw;
+.input-name, .input-senha{
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+
+}
+
+.btn-login{
+    width: 200px;
+    height: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title-login{
+    margin-bottom: 20px;
+}
+
+.mensagem-cadastro{
+    margin: 10px;
+}
+
+.link-cadastro{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    margin: 10px;
+}
+
+.img-login {
+  height: 100vh;
+  width: 100%;
 }

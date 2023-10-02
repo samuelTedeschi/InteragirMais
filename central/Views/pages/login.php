@@ -16,11 +16,18 @@
 <body>
     <div class="container">
         <div class="container-login">
-            <h2>login</h2>
-            <div>
-                <form action="">
-                    
+            <h1 class="title">InteragirMais</h1>
+            <div class="container-form">
+            <h2 class="title-login">login</h2>
+            <form action="" class="inputs">
+                    <input type="text" name="login" class="input-name">
+                    <input type="password" name="senha" class="input-senha">
+                    <input type="submit" name="acao" value="Entrar" class="btn-login">
                 </form>
+            </div>
+            <div class="">
+                <p class="mensagem-cadastro">Voce possui um conta?</p>
+                <a href="" class="link-cadastro">Cadastre-se</a>
             </div>
         </div>
         <div class="container-img">
